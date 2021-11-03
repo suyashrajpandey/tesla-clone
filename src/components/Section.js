@@ -10,7 +10,7 @@ function Section({
   backgroundImg,
 }) {
   return (
-    <Wrap bgImage={backgroundImg}>
+    <Wrap bgImage={backgroundImg} id={title}>
       <Fade bottom>
         <ItemText>
           <h1>{title}</h1>
